@@ -1,0 +1,67 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #fca6c9;
+}
+h1{
+    font-weight: 600;
+}
+h1:hover{
+    color: #000;
+}
+header{
+    text-align: center;
+    color: #fff;
+}
+header p{
+    font-family: serif;
+}
+main{
+    text-align: center;
+}
+main ol{
+    text-align: left;
+    width: fit-content;
+    margin:auto;
+    margin-bottom: 1rem;
+}
+main ol li{
+    font-weight: 600;
+    line-height: 2rem;
+}
+.reference-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.img-container{
+    width: 10rem;
+    height: auto;
+    margin: auto;
+}
+.img-container img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.quote{
+    width: 600px;
+    margin: auto;
+    
+}
+.quote p{
+    font-family: serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #fff;
+    
+}
+.tag-introduce{
+    font-weight: 500;
+    width: 400px;
+    margin: auto;
+}
+.tag-introduce p{
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
