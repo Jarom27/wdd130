@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 50%);
+}
+.cherries{
+    height: fit-content;
+    background: 100% 100%;
+    background-image: url("./w06_cherries.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
