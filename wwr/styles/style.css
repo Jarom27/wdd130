@@ -286,6 +286,7 @@ h4{
     .river-article{
         display: flex;
         flex-direction: column;
+        align-items: center;
         row-gap: 2rem;
     }
     #different-align{
