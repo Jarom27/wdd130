@@ -196,6 +196,56 @@ h4{
     width: 80px;
     border-radius: 5px;
 }
+/*Rivers page styles */
+#hero-river{
+    width: 100%;
+}
+#hero-river img{
+    width: 100%;
+}
+#river-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    justify-content: center;
+    padding: 20px 20px;
+    align-items: center;
+}
+.river-intro{
+    text-align: center;
+}
+.river-intro h1{
+    font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif;
+}
+.river-article{
+    
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    justify-content: center;
+}
+.river-image{
+    width: 400px;
+    transition: all 1s ease;
+}
+.river-info{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: left;
+}
+.river-info h2{
+    font-family: 'Montserrat',Verdana, sans-serif;
+}
+.river-info p{
+    font-size: .8em;
+}
+.river-image:hover{
+    transform: scale(1.2);
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -232,6 +282,21 @@ h4{
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .river-article{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    #different-align{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .river-article img{
+        width: 100%;
+    }
+    .river-info h2, .river-info p{
+        text-align: center;
     }
     footer {
         margin-top: 25px;
