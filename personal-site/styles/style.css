@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Geologica', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Raleway', Verdana, monospace;
+}
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+nav{
+    background-color: #5876A4;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(1fr, 6);
+}
+#logo{
+    grid-column: 1 / 2;
+}
+#logo img{
+    width: 100px;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 4 / 7;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+#hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#hero img{
+    position: absolute;
+    opacity: .7;
+    width: 100%;
+}
+#hero .title{
+    width: 100%;
+    height: 100%;
+    color: #272D2D;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+#about{
+    padding: 100px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.home-info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+.section-separator{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.section-separator img{
+    width: 100%;
+}
+#trajectory{
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+}
+.trajectory-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.trajectory-content div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ff3446;
+    width: 100%;
+    height: 100px;
+}
