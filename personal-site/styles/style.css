@@ -21,7 +21,7 @@ nav{
     background-color: #5876A4;
     display: grid;
     padding: 10px;
-    grid-template-columns: repeat(1fr, 6);
+    grid-template-columns: repeat(6, 1fr)
 }
 #logo{
     grid-column: 1 / 2;
