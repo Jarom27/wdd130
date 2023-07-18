@@ -271,3 +271,36 @@ footer {
         opacity: 1
     }
 }
+.card{
+    width: 300px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.card-info h3{
+    font-size: 30px;
+}
+.card-info p{
+    height: 250px;
+    overflow: scroll;
+}
+.projects-title{
+    width: 100%;
+    text-align: center;
+}
+.github{
+    width: fit-content;
+    background-color: #272D2D;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: white;
+}
+#projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem 2rem;
+    justify-items: center;
+}
